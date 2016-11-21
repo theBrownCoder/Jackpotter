@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Click Me!</string>
+	<string name="app_name">Jackpotter</string>
+	<string name="button_login">Login</string>
+	<string name="button_cancel">Cancel</string>
+	<string name="button_reset">Reset</string>
+	<string name="button_pick">Pick Numbers</string>
+	<string name="button_pick3">Pick 3</string>
+	<string name="button_pick4">Pick 4</string>
+	<string name="button_cash5">Cash 5</string>
+	<string name="button_lucky4life">Lucky For Life</string>
+	<string name="button_megamillions">Mega Millions</string>
+	<string name="button_powerball">Powerball</string>
+
+</resources>
