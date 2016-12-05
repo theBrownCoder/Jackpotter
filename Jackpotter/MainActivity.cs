@@ -18,7 +18,6 @@ namespace Jackpotter
 
 			// Get our button from the layout resource,
 			// and attach an event to it
-			Button button = FindViewById<Button>(Resource.Id.myButton);
 			Button button1 = FindViewById<Button>(Resource.Id.pick3Button);
 			Button button2 = FindViewById<Button>(Resource.Id.pick4Button);
 			Button button3 = FindViewById<Button>(Resource.Id.cash5Button);
@@ -26,8 +25,6 @@ namespace Jackpotter
 			Button button5 = FindViewById<Button>(Resource.Id.megamillsButton);
 			Button button6 = FindViewById<Button>(Resource.Id.powerballButton);
 
-
-			button.Click += delegate { button.Text = $"{count++} clicks!"; };
 			button1.Click += delegate { button1.Text = $"{count++} clicks!"; };
 			button2.Click += delegate { button2.Text = $"{count++} clicks!"; };
 			button3.Click += delegate { button3.Text = $"{count++} clicks!"; };

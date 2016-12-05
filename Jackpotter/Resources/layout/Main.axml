@@ -14,28 +14,30 @@
         android:layout_height="wrap_content"
         android:text="@string/button_pick3" />
     <Button
+        android:id="@+id/Luck4LifeButton"
+        android:layout_width="169.5dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_lucky4life"
+        android:layout_marginRight="0.0dp" />
+    <Button
         android:id="@+id/pick4Button"
-        android:layout_width="match_parent"
+        android:layout_width="171.0dp"
         android:layout_height="wrap_content"
         android:text="@string/button_pick4" />
     <Button
         android:id="@+id/cash5Button"
-        android:layout_width="match_parent"
+        android:layout_width="174.5dp"
         android:layout_height="wrap_content"
-        android:text="@string/button_cash5" />
-    <Button
-        android:id="@+id/Luck4LifeButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/button_lucky4life" />
+        android:text="@string/button_cash5"
+        android:layout_marginRight="0.0dp" />
     <Button
         android:id="@+id/megamillsButton"
-        android:layout_width="match_parent"
+        android:layout_width="176.0dp"
         android:layout_height="wrap_content"
         android:text="@string/button_megamillions" />
     <Button
         android:id="@+id/powerballButton"
-        android:layout_width="match_parent"
+        android:layout_width="171.0dp"
         android:layout_height="wrap_content"
         android:text="@string/button_powerball" />
 </LinearLayout>
